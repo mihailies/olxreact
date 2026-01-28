@@ -1,0 +1,10 @@
+.pageSection{
+    width: 100%;
+    // border: 1px solid #d00;
+    display: flex;
+    justify-content: center;
+    div.contentMaxWidht{
+        width: 100%;
+        max-width: 900px;
+    }
+}
