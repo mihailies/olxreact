@@ -1,8 +1,10 @@
 // import { useState } from 'react'
 import { Footer } from "./layout/Footer";
 import { Header } from "./layout/Header";
+import { CategoriesSection } from "./layout/CategoriesSection";
 import { PageSection } from "./layout/PageSection";
 import { Search } from "./layout/Search";
+import { PromotedSection } from "./layout/PromotedSection";
 {
   /* <style className="scss"></style>; */
 }
@@ -21,8 +23,12 @@ function App() {
         <Search />
       </PageSection>
 
-      <PageSection>Categorii principale</PageSection>
-      <PageSection bgColor="f5f5f5">Anunturi promovate</PageSection>
+      <PageSection>
+        <CategoriesSection />
+      </PageSection>
+      <PageSection bgColor="f5f5f5">
+        <PromotedSection />
+      </PageSection>
 
       <PageSection style={{flexGrow:1}}>
         <ul style={{ flexGrow: 2 }}>
