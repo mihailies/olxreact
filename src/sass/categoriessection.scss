@@ -1,0 +1,31 @@
+.categoriesSection {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+
+  h3 {
+    margin: 30px 0;
+  }
+
+  div {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    user-select: none;
+
+    a {
+      display: block;
+      margin-bottom: 40px;
+      padding: 0 6px;
+      text-align: center;
+      img {
+        width: 88px;
+        height: 88px;
+        margin: 0 auto;
+        text-align: center;
+        display: block;        
+        border-radius: 50%;
+      }
+    }
+  }
+}
