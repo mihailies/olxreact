@@ -33,7 +33,7 @@ const Item = (_props: ItemProps) => {
     <div className="item">
       <img src={reactLogo} />
       <div className="info">
-        <div className="title">Titlu</div>
+        <div className="title">Titlu Sectiunii</div>
         <div className="location">Locatie - Data</div>
         <div className="price">Pret lei</div>
       </div>
