@@ -1,0 +1,22 @@
+export const CATEGORIES = [
+  "Electronics & Appliances",
+  "Real Estate",
+  "Cars, Motorcycles & Boats",
+  "Mobile Phones & Tablets",
+  "Home & Garden",
+  "Fashion & Accessories",
+  "Baby & Kids",
+  "Jobs",
+  "Services",
+  "Business & Industrial",
+  "Sport, Leisure & Art",
+  "Pets",
+  "Furniture & Decor",
+  "Auto Parts & Accessories",
+  "Laptops & Computers",
+  "Video Games & Consoles",
+  "Musical Instruments",
+  "Books, Movies & Music",
+  "Health & Beauty",
+  "Agriculture"
+];
